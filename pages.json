@@ -1,0 +1,68 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "温柔经期记录",
+        "navigationBarBackgroundColor": "#FCE4EC",
+        "navigationBarTextStyle": "black"
+      }
+    },
+    {
+      "path": "pages/records/records",
+      "style": {
+        "navigationBarTitleText": "我的记录",
+        "navigationBarBackgroundColor": "#FCE4EC",
+        "navigationBarTextStyle": "black"
+      }
+    },
+    {
+      "path": "pages/settings/settings",
+      "style": {
+        "navigationBarTitleText": "个人设置",
+        "navigationBarBackgroundColor": "#FCE4EC",
+        "navigationBarTextStyle": "black"
+      }
+    },
+    {
+      "path": "pages/record-detail/record-detail",
+      "style": {
+        "navigationBarTitleText": "每日记录",
+        "navigationBarBackgroundColor": "#FCE4EC",
+        "navigationBarTextStyle": "black"
+      }
+    }
+  ],
+  "tabBar": {
+    "color": "#9CA3AF",
+    "selectedColor": "#D81B60",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页日历",
+        "iconPath": "static/icons/calendar.png",
+        "selectedIconPath": "static/icons/calendar-active.png"
+      },
+      {
+        "pagePath": "pages/records/records",
+        "text": "我的记录",
+        "iconPath": "static/icons/records.png",
+        "selectedIconPath": "static/icons/records-active.png"
+      },
+      {
+        "pagePath": "pages/settings/settings",
+        "text": "个人设置",
+        "iconPath": "static/icons/settings.png",
+        "selectedIconPath": "static/icons/settings-active.png"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "温柔经期记录",
+    "navigationBarBackgroundColor": "#FCE4EC",
+    "backgroundColor": "#FAFAFA"
+  }
+}
